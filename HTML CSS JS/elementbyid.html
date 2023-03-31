@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="click">Click here</button>
+<ul id="myList">
+    <li>Apple</li>
+    <li>Orange</li>
+</ul>
+<script>
+// Get the element with id="myHeading"
+var btn = document.getElementById("click");
+
+btn.addEventListener("click",function(){
+    alert("Button Clicked");
+});
+var newItem=document.createElement("li");
+newItem.textContent="Water Melon";
+
+var list=document.getElementById("myList");
+list.appendChild(newItem);
+
+</script>
+
+</body>
+</html>

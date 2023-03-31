@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><title>prime number</title></head>
+    <body>
+        <script>
+            
+         let n=17;
+         let a=true;
+         if(n===1){
+            console.log("1 is neither prime nor composite number.");
+         }
+         else if (n> 1) 
+         {
+
+            for (let i = 2; i < n; i++) {
+             if (n % i == 0) {
+             isPrime = false;
+             break;
+             }
+            }
+         }
+
+         if (isPrime) {
+              console.log("is a prime number");
+         } 
+         else {
+              console.log("is a not prime number");
+             }
+        </script>
+        
+
+    </body>
+    
+
+</html>

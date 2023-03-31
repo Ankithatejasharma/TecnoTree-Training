@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList">
+    <li>Apple</li>
+    <li>Orange</li>
+</ul>
+
+<button id="btn">Purchased</button>
+<script>
+// Get the element with id="myHeading"
+var newItem=document.createElement("li");
+newItem.textContent="Water Melon";
+
+var list=document.getElementById("myList");
+list.appendChild(newItem);
+
+list.style.color="blue";
+list.style.fontSize="45px";
+list.style.textAlign="center";
+
+var btn=document.getElementById("btn");
+btn.addEventListener("click",function(){
+        alert("You Purchased the product!!")
+});
+
+btn.style.right="50%";
+btn.style.transform="translateX(+650%)";
+
+</script>
+
+</body>
+</html>

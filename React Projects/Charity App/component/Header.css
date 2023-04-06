@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(white,pink);
+    padding: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu li a:hover {
+    background-color: #DEE2E6;
+  }
+  

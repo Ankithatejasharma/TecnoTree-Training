@@ -1,0 +1,40 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem:not(:last-child) {
+    margin-right: 2rem;
+  }
+  
+  .navLink {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navLink:hover {
+    color: #007aff;
+  }
+  
+  .navLink.active {
+    color: #007aff;
+    font-weight: 700;
+  }
+  

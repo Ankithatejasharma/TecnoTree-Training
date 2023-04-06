@@ -1,0 +1,24 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .socialMediaLink {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .socialMediaLink:hover {
+    color: #007aff;
+  }
+  
+  .copyRight {
+    margin: 0;
+  }
+  

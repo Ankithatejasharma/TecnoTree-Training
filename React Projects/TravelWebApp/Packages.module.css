@@ -1,0 +1,49 @@
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-image: radial-gradient(white,rgb(42, 149, 165));
+  }
+  
+  .packageItem {
+    margin: 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 30rem;
+}
+
+.packageItem img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.packageTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem;
+  }
+  
+  .packageDescription {
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .packageButton {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background-color: #007aff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .packageButton:hover {
+    background-color: #fff;
+    color: #007aff;
+  }

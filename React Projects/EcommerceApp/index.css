@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(lightblue,white);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-image: url('bg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.book-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.book-card img {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.book-card h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.book-card h3 {
+  color: #666;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.book-card h4 {
+  color: #666;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.book-card button {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 4px lightblue;
+}
+
+.book-card button:hover {
+  background-color: #006080;
+}
+
+.book-card button:active {
+  background-color: #006080;
+  transform: translateY(7px);
+}
+
+.cart-container,
+.wishlist-container {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-container h2,
+.wishlist-container h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.cart-container ul,
+.wishlist-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.cart-container li,
+.wishlist-container li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.btn{
+  margin-left:10px;
+  border: none;
+  border-radius: 10px;
+  padding:10px;
+  box-shadow: 0 4px grey;
+
+}
+.btn:active{
+  box-shadow: 0 2px grey;
+  transform: translateY(7px);
+  background-color: #666;
+}
+
+      
+      
+      
+      

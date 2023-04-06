@@ -1,0 +1,207 @@
+/* Set default font and background colors */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-image: url('bg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the navbar */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Style the main content area */
+main {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the home section */
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home button {
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px grey;
+}
+
+.home button:hover {
+  background-color: #0069d9;
+}
+.home button:active{
+  box-shadow: 0 4px grey;
+  transform: translateY(7px);
+}
+
+/* Style the about section */
+.about {
+  margin-bottom: 2rem;
+  
+
+}
+
+.about h2 {
+  font-size: 2rem;
+  align-items: center;
+  
+}
+
+.about p {
+  font-size: 1.2rem;
+ 
+
+}
+
+/* Style the projects section */
+.projects {
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 0.5rem;
+}
+
+.projects a {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+  color:red;
+}
+
+.projects:visited{
+  color: purple;
+}
+
+/* Style the contact section */
+.contact {
+  margin-bottom: 2rem;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(123, 122, 122,0.4);
+  width:500px;
+  margin:0 auto;
+  border-radius: 50px;
+}
+
+.contact label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  width:300px;
+  margin-left:100px;
+ 
+}
+
+.contact button {
+  font-size: 1.2rem;
+  background-image: radial-gradient(rgb(189, 144, 238),rgb(231, 95, 211));
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width:125px;
+  margin-left:200px;
+  margin-bottom: 30px;
+  color:black;
+  box-shadow: 0 5px lightpink;
+  
+}
+
+.contact button:hover {
+  background-color: #0069d9;
+}
+
+.contact button:active{
+  box-shadow: 0 3px lightpink;
+  transform: translateY(7px);
+}
+.img{
+  border-radius: 40px;
+  border-radius:50%;
+  float:center;
+  
+}
+.projects img{
+  border-radius: 40px;
+  box-shadow: 0 4px 4px 4px grey;
+}
+
+

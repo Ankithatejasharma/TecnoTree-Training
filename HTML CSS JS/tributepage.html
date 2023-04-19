@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tribute to Nikola Tesla</title>
+	<style>
+		body{
+			background-color: bisque;
+		}
+		header {
+			text-align: center;
+			background-color: rgba(255, 165, 0, 0.4);
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font-size: 18px;
+			margin-top: 0;
+		}
+
+		section {
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		li {
+			margin-bottom: 5px;
+		}
+
+		footer {
+			text-align: center;
+			padding: 10px;
+			background-color: rgba(255, 165, 0, 0.4);
+		}
+		.lightgray{
+                background-color: rgb(214, 237, 157);
+            }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Nikola Tesla</h1>
+		<p>1856-1943</p>
+	</header>
+    <center><img src="image1.jpg" alt="Image Not Found" onmouseover="hover(this);"onmouseout="hoverout(this);" height="400px" width="325px"/></center>
+	<main>
+		<section>
+			<h2>Early Life</h2>
+			<p>Nikola Tesla was born on July 10, 1856, in Smiljan, Croatia. He was the fourth of five children of Serbian Orthodox parents. Tesla attended school in Karlstadt and Prague, and he excelled in languages, mathematics, and physics. He was particularly interested in electricity and magnetism, and he began conducting experiments at a young age.</p>
+		</section>
+		<section>
+			<h2>Inventions and Discoveries</h2>
+			<ul>
+				<li>AC electrical system</li>
+				<li>Induction motor</li>
+				<li>Tesla coil</li>
+				<li>Remote control</li>
+				<li>Wireless communication</li>
+			</ul>
+			<p>Click on the items to learn more:</p>
+			<div id="info"></div>
+		</section>
+		<section>
+			<h2>Legacy</h2>
+			<p>Tesla's inventions and discoveries revolutionized the field of electrical engineering and laid the foundation for modern technologies such as radio, television, and the internet. He was a visionary thinker and a prolific inventor, with over 300 patents to his name. Despite his many accomplishments, Tesla died penniless and largely forgotten in 1943. Today, he is recognized as one of the greatest inventors and scientists of all time.</p>
+		</section>
+	</main>
+	<footer>
+		<p>Created by Ankitha &mdash; Inspired by the life and work of Nikola Tesla</p>
+	</footer>
+	<script>
+		
+
+	var btn = document.createElement('button');
+	btn.innerText = 'Go to Top';
+	btn.addEventListener('click', function() {
+		window.scrollTo(0, 0);
+	});
+	document.body.appendChild(btn);
+
+    function hover(img){
+        img.src="tesla.jpg ";
+    }
+    function hoverout(img){
+        img.src="image1.jpg";
+    }
+
+	var btn1=document.createElement("button");
+	btn1.innerText='Change the background';
+    btn1.addEventListener("click",function(){
+    var toggl=document.body;
+    toggl.classList.toggle("lightgray");
+	
+});
+document.body.appendChild(btn1);
+</script>
+</body>
+</html>

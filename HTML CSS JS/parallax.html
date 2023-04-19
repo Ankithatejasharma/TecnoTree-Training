@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Parallax Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			background-color: #f2f2f2;
+		}
+
+		.bg-image {
+			background-image: url('bg3.jpg');
+			background-size: cover;
+			background-position: center center;
+			height: 300px;
+			position: relative;
+			z-index: 1;
+		}
+		.content {
+			position: relative;
+			z-index: 2;
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 50px;
+		}
+
+		h1, p {
+			margin: 0 0 20px;
+			padding: 0;
+			text-align: center;
+		}
+
+		.parallax {
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 400px;
+			margin: 0 auto;
+			position: relative;
+			z-index: 1;
+		}
+
+		.section-two {
+			background-color: #fff;
+			padding: 50px;
+			text-align: center;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+
+	</style>
+</head>
+<body>
+	<section class="bg-image">
+		<div class="content">
+			<h1>Simple Parallax Website</h1>
+			<p>A demonstration of the parallax effect using HTML and CSS</p>
+		</div>
+	</section>
+     <br>
+     <br>
+	<section class="parallax" style="background-image: url('bg1.jpg');">
+		<div class="content">
+			<h2>What is Parallax?</h2>
+			<p>Parallax is a technique in web design where background images move more slowly than foreground images, creating an illusion of depth and immersion.</p>
+		</div>
+	</section>
+
+	<section class="section-two">
+		<div class="content">
+			<h2>How to Create a Simple Parallax Website</h2>
+			<p>Creating a simple parallax website is easy with HTML and CSS. Simply create two or more sections with different background images, and apply the parallax effect to the second section.</p>
+		</div>
+	</section>
+
+	<footer>
+		<p>Copyright &copy; 2023
+		<a href="#">Privacy Policy</a> | </p>
+    </footer>
+    </body>
+    </html>
